@@ -1,0 +1,206 @@
+
+
+#reg-part{
+    
+}
+
+
+.reg-panel{
+    position: absolute;
+    z-index: -200;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+
+
+.reg-banner{
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+}
+.reg-banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.reg-animation-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+.reg-animation-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.reg-right-Grid{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.reg-right-Grid .reg-right-Grid2{
+    margin-top: -4rem;
+}
+.reg-right-Grid .reg-title{
+    margin-top: -2rem;
+    width: 94%;
+    text-align: justify;
+  text-justify: inter-word;
+}
+.reg-right-Grid .reg-content{
+    width: 100%;
+}
+.reg-right-Grid .reg-content p{
+
+    color: var(--gray);
+}
+ .error-alert{
+    width: 94%;
+}
+.reg-title .reg-title-diu{
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: var(--biolet);
+    
+}
+
+
+
+.reg-form{
+    margin-top: 1.4rem;
+    width: 100%;
+}
+.error-alert{
+    margin-top: 1rem;
+}
+.reg-form .text-id{
+    width: 94%;
+    font-size: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+.reg-form .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+    border-bottom-color: var(--biolet);
+}
+.reg-form .css-v4u5dn-MuiInputBase-root-MuiInput-root{
+    font-size: 0.8rem;
+}
+.reg-form .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 0.8rem;
+}
+.main-banner .error-alert .css-trxq2-MuiPaper-root-MuiAlert-root{
+    margin-bottom: 0rem;
+}
+
+.reg-remember{
+    width: 94%;
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.reg-remember .forget a{
+    text-decoration: underline;
+}
+.reg-remember .rem{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.reg-remember .checkBox{
+    background: var(--green);
+}
+
+.reg-signup{
+
+    margin-top: 2.9rem;
+    
+}
+.reg-signup button{
+    background: var(--biolet);
+    z-index: 10;
+    width: 94%;
+    color: var(--blueCard);
+    padding: 1rem 0;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.reg-signup button:hover{
+    background: var(--green);
+}
+
+.reg-form .already-account{
+    width: 94%;
+    margin-top: 0.8rem;
+    text-align: center;
+}
+.or-part{
+    margin-top: 0.6rem;
+    width: 94%;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--gray);
+}
+
+.social-media{
+    margin-top: 1rem;
+    width: 94%;
+    margin-bottom: 2rem;
+}
+.social-media nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+.social-media nav ul .google{
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background: var(--blueCard);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.social-media nav ul .google:hover{
+    background: var(--biolet);
+
+}
+
+.copyRights{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+#log-part .swal2-confirm{
+    background: var(--green)!important;
+}
